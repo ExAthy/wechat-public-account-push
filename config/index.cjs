@@ -23,9 +23,12 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'owfvt6XrlGjHnAuNNh5s_q5wFODE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'LGkAjkSeQj1pjcvliqn7EVQl08PjtRiFGRHr8m5wwA4',
+      useTemplateId: 'Bo__Ndmm0jly346Y2WOigUX4gdc_DWaf4cdgSgB_FxU',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '李梦尧', year: '1997', date: '09-16',
+        },
         {
           type: '生日', name: '李梦尧', year: '1997', date: '09-16',
         },
